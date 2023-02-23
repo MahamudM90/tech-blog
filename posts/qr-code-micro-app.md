@@ -10,9 +10,9 @@ I thought it'd be fun to explore the technology a little bit, so I've built a mi
 
 In this post, I'll be sharing how I built this using Python and AWS free tier.
 
-You can try out the [app itself here](https://qr.pixegami.com/). The [source code](https://github.com/pixegami/qr-code-webapp) is also available on GitHub.
+You can try out the [app itself here](https://qr.pixegami.com/). The [source code]() is also available on GitHub.
 
-![images/qr-code-demo.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1628899108564/NGWiGc3-w.gif)
+
 
 ## What is a QR Code?
 
@@ -22,7 +22,6 @@ We've all seen and used them before, but how does a QR code actually work? The f
 
 As long an image respects these standard, it is a "QR code" and can be understood by most smartphone cameras. The image itself also has a kind of anatomy:
 
-![images/qr_code_anatomy.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628900340423/NSYNLARYu.png)
 
 It is quite interesting, but ultimately these were the three things I cared about:
 
@@ -121,7 +120,7 @@ presigned_url = s3client.generate_presigned_url(
 
 This URL is sent back to the front-end for display.
 
-![images/qr-code.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628903696663/uU7ksdnrL.png)
+
 
 ### Persisting the `tag` and the message
 
@@ -150,7 +149,7 @@ item = QrItem().deserialize(serialized_item)
 message = item.message
 ```
 
-![images/qr-result.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628903629263/V2Jg0j8r3.png)
+
 
 ## Wrap Up
 
