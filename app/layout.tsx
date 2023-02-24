@@ -14,7 +14,7 @@ export default function RootLayout({
             Mahamud's Blog
           </h1>
         </Link>
-        <p className="text-slate-300">🔥Welcome to my blog💻</p>
+        <p className="text-slate-300">🔥 Welcome to my blog 💻</p>
       </div>
     </header>
   );
