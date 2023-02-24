@@ -29,6 +29,7 @@ export default function RootLayout({
   return (
     <html>
       <head />
+
       <body>
         <div className="mx-auto border border-white max-w-2xl px-6">
           {header}
